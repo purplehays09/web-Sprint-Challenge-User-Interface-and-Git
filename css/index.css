@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 1px dotted grey;
+	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -77,7 +77,14 @@ header nav{
     justify-content: space-evenly;
     align-items: flex-end;
 }
+header nav a{
+    text-decoration: none;
+}
 
+#header-img{
+    width: 31.325%;
+    margin:1% auto
+}
 
 p {
     line-height: 1.4;
