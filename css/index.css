@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 1px dotted grey;
+	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -198,4 +198,37 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+#top{
+    padding: 2%;
+    border-bottom: 1px dotted black;
+}
+
+#middle{
+    padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.gut{
+    width: 48%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-bottom: 1px dotted black;
+}
+
+.gut button{
+    width:30%;
+    border: 2px solid black;
+    border-radius: 14%;
+    background-color: white;
+    padding: 2.5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#bottom{
+    padding: 3%;
 }
