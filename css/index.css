@@ -51,6 +51,8 @@ table {
     box-sizing: border-box;
 }
 
+
+
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -60,6 +62,28 @@ h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+}
+
+header nav{
+    width: 800px;
+    margin: 1% auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav div{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+header nav a{
+    text-decoration: none;
+}
+
+#header-img{
+    width: 800px;
+    margin:1% auto
 }
 
 p {
@@ -112,6 +136,37 @@ p {
     justify-content: center;
 }
 
+#box1{
+    background-color: teal;
+}
+#box2{
+    background-color: gold;
+}
+#box3{
+    background-color: cadetblue;
+}
+#box4{
+    background-color: coral;
+}
+#box5{
+    background-color: crimson;
+}
+#box6{
+    background-color: forestgreen;
+}
+#box7{
+    background-color: darkorchid;
+}
+#box8{
+    background-color: hotpink;
+}
+#box9{
+    background-color: indigo;
+}
+#box10{
+    background-color: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +198,37 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+#top{
+    padding: 3%;
+    border-bottom: 1px dotted black;
+}
+
+#middle{
+    padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.gut{
+    width: 48%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-bottom: 1px dotted black;
+}
+
+.gut button{
+    width:30%;
+    border: 2px solid black;
+    border-radius: 14%;
+    background-color: white;
+    padding: 2.5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#bottom{
+    padding: 3%;
 }
